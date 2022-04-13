@@ -1,4 +1,6 @@
 # 使用Modelarts标注、生成无人车路标检测数据集
+2022.04.13 lzh  
+
 ## step1 注册华为云账号
 网址：https://www.huaweicloud.com/  
   
@@ -12,7 +14,7 @@
 ![avatar](/readme/obs.png)  
   
 ## step5 点击 创建桶 修改相关设置，创建桶
-[注]意区域需为 华北-北京四  
+[注] 区域需为 华北-北京四  
 
 ## step6 返回Modelarts界面
 网址：https://console.huaweicloud.com/modelarts/?region=cn-north-4#/dashboard  
@@ -37,7 +39,7 @@
 ![avatar](/readme/marks1.png)  
 点击 添加图片，并导入本地（或obs上）待标注图片  
 上传成功后，可以看见界面中有导入图片的概览图，单击图片开始标注  
-[注]：标注尽量不含背景，只含特征物，如下图所示  
+[注] 标注尽量不含背景，只含特征物，如下图所示  
 ![avatar](/readme/marks2.png)  
 完成所有图片的标注
 
@@ -51,6 +53,3 @@
 ![avatar](/readme/outputloc.png)  
 .xml存储位置：数据集输出地址/数据集名称-xxx/annotation/V00x（对应版本）/annotations  
 下载方式：下载OBS-Browser+批量下载文件，在线方式不能批量下载。  
-  
-  
-2022.04.13 lzh
