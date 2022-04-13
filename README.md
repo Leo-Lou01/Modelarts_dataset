@@ -39,3 +39,18 @@
 上传成功后，可以看见界面中有导入图片的概览图，单击图片开始标注  
 注：标注尽量不含背景，只含特征物，如下图所示  
 ![avatar](/readme/marks2.png)  
+完成所有图片的标注
+
+## step10 发布当前版本数据集
+![avatar](/readme/publish1.png)  
+数据切分：切分train和test
+点击 确定 完成数据集版本的发布
+
+## step11 label存储位置
+找到数据集输出地址，如下图所示  
+![avatar](/readme/outputloc.png)  
+.xml存储位置：数据集输出地址/数据集名称-xxx/annotation/V00x（对应版本）/annotations  
+下载方式：下载OBS-Browser+批量下载文件，在线方式不能批量下载。  
+  
+  
+2022.04.13 lzh
